@@ -1,0 +1,110 @@
+
+*{
+    padding : 0px;
+    margin : 0px;
+}
+
+body{
+    background-color : #D9E5FF;
+    
+}
+.out_box{
+    background-image : url("rabbit.png"); 
+    background-repeat : no-repeat;  
+    background-size: cover; 
+    width : 500px;
+    height : 700px;  
+    background-color : pink;
+    margin : 200px auto;
+    border-radius : 30px;
+}
+.title_container{
+    width:100%;
+    height:70%;
+}
+.title{
+    float:left;
+    width: 80%;
+    height:100%;
+}
+.title_box{
+    height : 250px;
+}
+.today{
+    width:300px;
+    height: 30%;
+    font-size: 35px;
+    text-align: center;
+    line-height: 75px;
+    margin:0 auto;
+}
+
+#title_txt{
+    margin : 0px auto;
+    margin-top : 20px;
+    display : block;
+    height : 20%;
+    width : 300px;
+}
+#title_date{
+    margin : 0px auto;
+    margin-top : 10px;
+    display : block;
+    height : 20%;
+    width : 300px;
+}
+.btn{
+    float:left;
+    width:20%;
+    height: 100%;
+}
+.btn input{
+    margin-top:20px;
+    width:80%;
+    height:53%;
+    border-radius: 15px;
+    background-color: rgb(255, 182, 216);
+}
+
+.content_box{
+    height:100%;
+    width:100%;
+}
+.content{
+    background-color: rgb(255, 182, 216);
+    width:80%;
+    margin: 0 auto;
+    margin-top:5px;
+    border-radius: 20px;
+    height: 85px;
+}
+.cont_title{
+    
+    width:40%;
+    font-size: 25px;
+    text-align: center;
+    height:85px;
+    display: inline-block;
+    line-height: 85px;
+}
+
+.cont_content{
+   
+    width:40%;
+    font-size: 25px;
+    text-align: center;
+    height:85px;
+    line-height: 85px;
+    display: inline-block;
+    margin:0 20px;
+   
+}
+.delbtn{
+    
+    width:30px;
+    height:30px;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    margin:auto 0px;
+}
